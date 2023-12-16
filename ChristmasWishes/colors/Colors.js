@@ -1,3 +1,4 @@
-const galben = '#FFF969';
+const bgColor = '#FFF969';
 const verde = '#67FF7F';
-const rosu_deschis = '#FF867F';
+const nav_and_authContainers = '#FF867F';
+
