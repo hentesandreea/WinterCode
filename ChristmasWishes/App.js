@@ -26,21 +26,21 @@ const TabNav = () => {
           }
       }}>
       <Tab.Screen name={"Letter"} component={Letter} options={{tabBarIcon: ({focused}) =>
-              <Ionicons name={"pencil"} size={28} color={ focused ? "yellow" : 'gray'}/>,
+              <Ionicons name={"pencil"} size={28} color={ focused ? "#FFF969" : 'gray'}/>,
           tabBarInactiveTintColor: 'gray',
-          tabBarActiveTintColor: 'yellow'
+          tabBarActiveTintColor: '#FFF969'
 
       }}
       />
         <Tab.Screen name={"Map"} component={Map} options={{tabBarIcon: ({focused}) =>
-        <Ionicons name={"map"} size={28} color={focused ? "yellow" : "gray"}/>,
+        <Ionicons name={"map"} size={28} color={focused ? "#FFF969" : "gray"}/>,
             tabBarInactiveTintColor:'gray',
-            tabBarActiveTintColor:'yellow'
+            tabBarActiveTintColor:'#FFF969'
         }}/>
         <Tab.Screen name={"Profile"} component={Profile} options={{tabBarIcon:({focused}) =>
-        <Ionicons name={"person"} size={28} color={focused ? "yellow" : "gray"}/>,
+        <Ionicons name={"person"} size={28} color={focused ? '#FFF969' : "gray"}/>,
             tabBarInactiveTintColor:'gray',
-            tabBarActiveTintColor:'yellow'
+            tabBarActiveTintColor:'#FFF969'
         }}/>
       </Tab.Navigator>
   )
