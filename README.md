@@ -7,7 +7,7 @@
 <p>Capture the joy and wonder of the holiday season by composing heartfelt letters to Santa Claus.Tell him what do you wish for this year so he can  fulfill your wishes</p>
 <h2>🎅 Santa Tracker:</h2>
 <p>Embark on an adventure with the real-time Santa Tracker feature! Follow Santa's sleigh with cookies as it makes its way across the world on Christmas Eve</p>
-<h>App screens</h>
+<h3>App screens</h3>
 <ul>
   <li>Login Screen</li>
    <img src ="./ChristmasWishes/pozeREADME/login.png" width = "300" height ="500"/> 
