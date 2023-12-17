@@ -52,13 +52,14 @@ function Letter() {
                     </TextInput>
                 </View>
                 <KSpacer h={24}/>
-                <TextInput placeholder={"Start writing your wishes to Santa..."} style={{
-                    width: "100%",
-                    height: "60%",
+                <View style={{width:'100%', height:'60%', backgroundColor:'white',padding:10, borderRadius:10}}>
+            <TextInput placeholder={"Start writing your wishes to Santa..."} style={{
+
                     backgroundColor: 'white',
-                    borderRadius: 10,
+
                     padding: 10
                 }} multiline={true} value={inputText} onChangeText={setInputText}/>
+            </View>
                 <KSpacer h={24}/>
                 <TouchableOpacity onPress={() => {
                     Speech.speak("Ho Ho Ho I have received your letter!", {
