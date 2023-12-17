@@ -14,6 +14,7 @@
     <li>Register Screen</li>
     <img src ="./ChristmasWishes/pozeREADME/register.png" width = "300" height ="500"/> 
     <li>Letter screen</li>
+  <p>When you'll click on "Send letter" Santa will talk to you</p>
     <img src ="./ChristmasWishes/pozeREADME/letter.png" width = "300" height ="500"/> 
     <li>Map screen</li>
     <img src ="./ChristmasWishes/pozeREADME/map.png" width = "300" height ="500"/> 
