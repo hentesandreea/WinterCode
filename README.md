@@ -8,14 +8,14 @@
 <h>
 <p>App screens</p>
 <ul>
-  <li>Login Screen<</li>
-   <img src ="../ChristmasWishes/pozeREADME/login" width = "300" height ="500"/> 
+  <li>Login Screen</li>
+   <img src ="./ChristmasWishes/pozeREADME/login.png" width = "300" height ="500"/> 
     <li>Register Screen</li>
-    <img src ="../ChristmasWishes/pozeREADME/register" width = "300" height ="500"/> 
+    <img src ="./ChristmasWishes/pozeREADME/register.png" width = "300" height ="500"/> 
     <li>Letter screen</li>
-    <img src ="./ChristmasWishes/pozeREADME/letter" width = "300" height ="500"/> 
-    <li>Map</li>
-    <img src ="./ChristmasWishes/pozeREADME/map" width = "300" height ="500"/> 
+    <img src ="./ChristmasWishes/pozeREADME/letter.png" width = "300" height ="500"/> 
+    <li>Map screen</li>
+    <img src ="./ChristmasWishes/pozeREADME/map.png" width = "300" height ="500"/> 
     <li>Profile screen</li>
-    <img src ="./ChristmasWishes/pozeREADME/profile" width = "300" height ="500"/> 
+    <img src ="./ChristmasWishes/pozeREADME/profile.png" width = "300" height ="500"/> 
 </ul>
