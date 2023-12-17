@@ -22,9 +22,11 @@ function Letter(){
     return(
         <View style={{flex:1, backgroundColor:'#FFF969',padding:20,alignItems:'center'}}>
             <KSpacer h ={20}/>
+            <View style={{borderRadius:10,backgroundColor:"#FF867F",padding:10}}>
             <View style={{flexDirection:'row', gap:4}}>
-                <Text style={{fontWeight:'500',fontSize:16}}>Today is:</Text>
-                <Text style={{color:'black', fontWeight:'600',fontSize:16}}>{date.toDateString()}</Text>
+                <Text style={{fontWeight:'500',fontSize:16}}>📅 Today is:</Text>
+                <Text style={{color:'black', fontWeight:'600',fontSize:16}}>{date.toDateString()} 🎅🏻</Text>
+            </View>
             </View>
             <KSpacer h={20}/>
             <View style={{ width: '100%', height: "8%", backgroundColor: 'white', alignItems: 'center', padding: 10, borderRadius: 10, flexDirection: 'row', gap:6}}>
@@ -33,7 +35,9 @@ function Letter(){
                 </TextInput>
             </View>
             <KSpacer h={24}/>
-            <TextInput placeholder={"Start writing your wishes to Santa..."} style={{width:"100%", height:"60%", backgroundColor:'white', borderRadius:10,padding:10}}  multiline={true}/>
+            <View style={{width:'100%', height:'60%', backgroundColor:'white',padding:10, borderRadius:10}}>
+            <TextInput placeholder={"Start writing your wishes to Santa..."} style={{ backgroundColor:'white',padding:10}} multiline={true}/>
+            </View>
         <KSpacer h={24}/>
          <TouchableOpacity onPress={() => {
              Speech.speak("Ho Ho Ho I have received your letter!", {language: "en-US" , name: 'Grandpa', voice:"com.apple.eloquence.en-US.Grandpa", rate:0.6})
